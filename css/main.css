@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'Lobster';
+    src: url('Lobster-Regular.eot');
+    src: url('Lobster-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Lobster-Regular.woff2') format('woff2'),
+        url('Lobster-Regular.woff') format('woff'),
+        url('Lobster-Regular.ttf') format('truetype'),
+        url('Lobster-Regular.svg#Lobster-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('SourceSansPro-SemiBold.eot');
+    src: url('SourceSansPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('SourceSansPro-SemiBold.woff2') format('woff2'),
+        url('SourceSansPro-SemiBold.woff') format('woff'),
+        url('SourceSansPro-SemiBold.ttf') format('truetype'),
+        url('SourceSansPro-SemiBold.svg#SourceSansPro-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('SourceSansPro-Regular.eot');
+    src: url('SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SourceSansPro-Regular.woff2') format('woff2'),
+        url('SourceSansPro-Regular.woff') format('woff'),
+        url('SourceSansPro-Regular.ttf') format('truetype'),
+        url('SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --primary-color:  #FF7BAB;
+    --secondary-color: #C90651;
+    --background-color: rgb(255, 206, 223);
+}
+
+body {
+    font-family: 'Lobster', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h4, span {
+    font-family: 'Lobster', cursive;
+    color: var(--primary-color);
+}
+
+.section {
+    padding: 4rem 0;
+}
+
+.section.is-xl {
+    padding: 8rem 0;
+}
+
+header {
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.logo {
+    height: 30px;
+}
+
+.hero {
+    background: url(../img/header_img.jpg);
+    height: 510px;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero h4 {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.form-header {
+    padding: 1.5rem 0;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.form-body {
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    padding: 1.5rem 0;
+}
+
+.form-group {
+    padding: 0 3rem;
+}
+
+.form-control::placeholder{
+    color: #999999;
+}
+
+.form-group input {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #999999;
+}
+
+.form-group label {
+    color: #666666;
+    font-weight: 600;
+}
+
+button.cta {
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 50px;
+    padding: 1rem 3rem;
+    display: flex;
+    font-weight: 700;
+}
+
+button.cta:hover {
+    background-color: #999999;
+}
+
+.testimonial-section {
+    background-color: var(--background-color);
+}
+
+.testimonial-section p {
+    color: #333333;
+}
+
+.testimonial-section img {
+   border-radius: 10px;
+}
+
+.media .icons {
+    font-size: 40px;
+    margin-bottom: 16px;
+    color: var(--primary-color);
+}
+
+.media-body p {
+    color: #424242;
+}
+
+.section-bottom-cta img {
+    border-radius: 10px;
+}
+
+footer {
+    background-color: black;
+    height: 170px;
+}
+
+.social-media-icons a {
+    color: var(--primary-color);
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.social-media-icons a:link {
+    text-decoration: none;
+}
+
+.social-media-icons a:hover {
+    color: var(--secondary-color);
+}
+
+@media (max-width:768px) {
+    
+    .testimonial-section img {
+        display: none;
+    }
+
+    .cta {
+        display: table;
+        margin: 0 auto;
+    }
+    
+    .section-bottom-cta .col-sm-12:nth-of-type(1) {
+        margin: 0 0 2rem;
+    }
+
+    .section-media .col-sm-12:nth-of-type(2) {
+        margin: 2rem 0;
+    }
+}
+
+@media (max-width:992px) {
+    .hero {
+        height: auto;
+        padding: 4rem 0;
+    }
+
+    .section.is-xl {
+        padding: 4rem 0;
+    }
+      
+}
