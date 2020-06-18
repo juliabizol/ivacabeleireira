@@ -126,9 +126,13 @@ button.cta:hover {
 }
 
 .intro-section {
-    background-color: var(--background-color);
+    background-color: #E0E0E0;
     color: #333333;
+}
 
+.intro-section p {
+    width: 450px;
+    text-align: center;
 }
 
 .section img {
