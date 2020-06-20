@@ -178,8 +178,8 @@ button.cta:hover {
     color: #424242;
 }
 
-.section-bottom-cta img {
-    border-radius: 10px;
+.section-bottom-cta {
+    background-color: #E0E0E0;
 }
 
 footer {
@@ -189,8 +189,8 @@ footer {
 
 .social-media-icons a {
     color: var(--primary-color);
-    margin-right: 10px;
-    font-size: 18px;
+    margin-right: 16px;
+    font-size: 22px;
 }
 
 .social-media-icons a:link {
@@ -198,7 +198,8 @@ footer {
 }
 
 .social-media-icons a:hover {
-    color: var(--secondary-color);
+    color: #999999;
+
 }
 
 @media (max-width:768px) {
