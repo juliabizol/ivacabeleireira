@@ -139,8 +139,28 @@ button.cta:hover {
    border-radius: 10px;
 }
 
+.step-number1, .step-number3 {
+    font-size: 125px;
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 206, 223);
+    margin-right: 20px;
+    align-self: center;
+}
+
+.step1-text, step2-text, step3-text, step4-text {
+    width: 250px;
+}
+
 .step2-section {
     background-color: var(--background-color);
+}
+
+.step-number2, .step-number4 {
+    color: var(--primary-color);
+    font-size: 125px;
+    font-family: 'Lobster', cursive;
+    margin-right: 20px;
+    align-self: center;
 }
 
 .step4-section {
