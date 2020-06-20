@@ -147,7 +147,7 @@ button.cta:hover {
     align-self: center;
 }
 
-.step1-text, step2-text, step3-text, step4-text {
+.step1-text, .step2-text, .step3-text, .step4-text {
     width: 250px;
 }
 
@@ -157,6 +157,7 @@ button.cta:hover {
 
 .step-number2, .step-number4 {
     color: var(--primary-color);
+    opacity: 50%;
     font-size: 125px;
     font-family: 'Lobster', cursive;
     margin-right: 20px;
