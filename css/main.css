@@ -57,6 +57,10 @@ h1, h4, span {
     padding: 4rem 0;
 }
 
+.section-lg {
+    padding: 6rem 0;
+}
+
 header {
     background-color: black;
     padding-top: 25px;
@@ -126,7 +130,7 @@ button.cta:hover {
 }
 
 .intro-section {
-    background-color: #E0E0E0;
+    background-color:#e4e4e4;
     color: #333333;
 }
 
@@ -168,23 +172,33 @@ button.cta:hover {
     background-color: var(--background-color);
 }
 
-.media .icons {
-    font-size: 40px;
+.media-icons {
+    width: 52px;
     margin-bottom: 16px;
-    color: var(--primary-color);
 }
 
-.media-body p {
-    color: #424242;
+.media {
+    align-items: center;
+}
+
+.media-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.media-body p, .media-body h4{
+    color: #666666;
 }
 
 .section-bottom-cta {
-    background-color: #E0E0E0;
+    background-color: #e4e4e4;
 }
 
 footer {
     background-color:#333333;
-    height: 170px;
+    height: 150px;
 }
 
 .social-media-icons a {
