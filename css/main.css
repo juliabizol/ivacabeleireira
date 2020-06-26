@@ -216,10 +216,31 @@ footer {
 
 }
 
+@media (max-width:575.98px) {
+    .step-number1, .step-number2, .step-number3, .step-number4 {
+        font-size: 125px;
+    }
+}
+
 @media (max-width:768px) {
     
+    .hero h4 {
+        margin-bottom: 35px;
+    }
     .testimonial-section img {
         display: none;
+    }
+
+    .step1-text-column, .step2-text-column, .step3-text-column, .step4-text-column {
+        margin-top: 60px;
+    }
+
+    .step2-columns, .step4-columns {
+        flex-direction: column-reverse;
+    }
+
+    .step-number1, .step-number2, .step-number3, .step-number4 {
+        font-size: 125px;
     }
 
     .cta {
@@ -245,5 +266,8 @@ footer {
     .section.is-xl {
         padding: 4rem 0;
     }
-      
+    
+    .step-number1, .step-number2, .step-number3, .step-number4 {
+        font-size: 59px;
+    }
 }
